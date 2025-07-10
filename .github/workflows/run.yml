@@ -1,4 +1,4 @@
-name: Collect and Update V2Ray Configs
+name: Collect and Update
 
 on:
   schedule:
