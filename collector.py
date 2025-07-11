@@ -85,7 +85,7 @@ def get_and_filter_reality_configs(url):
             print(f"❌ Error fetching {url}: {e}")
         return [], 0
 
-def tcp_ping(host, port, timeout=2):
+def tcp_ping(host, port, timeout=1):
     try:
         with socket.create_connection((host, port), timeout=timeout):
             return True
