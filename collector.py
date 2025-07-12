@@ -147,6 +147,15 @@ for i, item in enumerate(working_configs_with_source):
     short_name = extract_short_source_name(item["source_link"])
     final_configs.append(f"{config_url}#{i+1} | {short_name}")
 
+# --- اضافه کردن کانفیگ فیک "برای خانواده عزیزم" به ابتدای لیست ---
+fake_config_name = "برای خانواده عزیزم"
+# این کانفیگ با استفاده از آدرس لوکال هاست (127.0.0.1) ایجاد شده و قابل اتصال نیست.
+fake_config_url = f"vless://00000000-0000-0000-0000-000000000000@127.0.0.1:443?security=none#{fake_config_name}"
+
+# اضافه کردن کانفیگ فیک به ابتدای لیست (اندیس 0)
+final_configs.insert(0, fake_config_url)
+# -------------------------------------------------------------------
+
 if final_configs:
     all_configs_combined = "\n".join(final_configs)
     base64_encoded_content = base64.b64encode(all_configs_combined.encode('utf-8')).decode('utf-8')
