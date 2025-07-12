@@ -115,7 +115,8 @@ links = [
     "https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/refs/heads/main/v2ray.txt",
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/vless.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/working.txt"
+    "https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/working.txt",
+    "https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/vless.txt"
 ]
 
 all_unique_configs = []
