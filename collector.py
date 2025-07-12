@@ -93,17 +93,17 @@ def tcp_ping(host, port, timeout=2):
         return False
 
 links = [
-    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/refs/heads/main/sub/vless",
-    "https://raw.githubusercontent.com/itsyebekhe/PSG/refs/heads/main/subscriptions/xray/normal/mix",
+    "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix",
     "https://raw.githubusercontent.com/T3stAcc/V2Ray/refs/heads/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt",
     "https://raw.githubusercontent.com/Awmiroosen/awmirx-v2ray/refs/heads/main/blob/main/v2-sub.txt",
+    "https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/vless.txt",
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/vless.txt",
     "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/22.txt",
     "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/14.txt",
     "https://raw.githubusercontent.com/MRT-project/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/Argh94/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/vless.txt",
-    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/vless.txt",
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/refs/heads/main/splitted/vless",
     "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/refs/heads/main/sub/Mix/mix.txt",
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",
@@ -116,8 +116,6 @@ links = [
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/vless.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/working.txt",
-    "https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/vless.txt",
-    "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix"
 ]
 
 all_unique_configs = []
